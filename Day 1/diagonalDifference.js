@@ -1,4 +1,4 @@
-// sum of Left & Right Diagonal
+// Difference between Left & Right Diagonal sum
 
 // 11  2  4
 //  4  5  6
