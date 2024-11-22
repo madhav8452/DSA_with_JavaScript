@@ -8,7 +8,7 @@ for(let i = 0; i < arr.length; i++){
         let square = arr[i] * 2
         ans.push(square)
     }
-    else if(arr[i] % 2 == 1){
+    else{
         let half = arr[i] / 2
         ans.push(half)
     }
