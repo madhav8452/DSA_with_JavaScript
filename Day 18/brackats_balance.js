@@ -46,22 +46,17 @@ while(loop != 0){
     loop--
 }
 
-let flag = true
+function brackets(){
+    for(let i = 0; i < open.length; i++){
+        if(open[i] == "[" && close[i] == "]" || open[i] == "{" && close[i] == "}" || open[i] == "(" && close[i] == ")" || open[i] == "<" && close[i] == ">"){
+            continue
+        }
+        else{
+            return false
+        }
+    } 
 
-for(let i = 0; i < open.length; i++){
-    if(open[i] == "[" && close[i] == "]" || open[i] == "{" && close[i] == "}" || open[i] == "(" && close[i] == ")" || open[i] == "<" && close[i] == ">"){
-        continue
-    }
-    else{
-        flag = false
-        break
-    }
-} 
-
-if(flag){
-    console.log("Brackets is in Balance")
-}
-else{
-    console.log("Brackets is not in Balance")
+    return true
 }
 
+console.log(brackets())
