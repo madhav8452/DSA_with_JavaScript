@@ -40,8 +40,8 @@ let i = 0
 
 while(loop != 0){
     close.push(stk.peek())
-    stk.pop()
     open.push(string[i])
+    stk.pop()
     i++
     loop--
 }
