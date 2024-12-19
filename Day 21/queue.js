@@ -1,3 +1,5 @@
+//Queue work as a Stack with Array Method
+
 let q1 = []
 let q2 = []
 

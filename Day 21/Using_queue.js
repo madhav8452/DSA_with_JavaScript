@@ -1,3 +1,4 @@
+//Queue work as a Stack with class queue
 
 class queue {
     constructor(){
